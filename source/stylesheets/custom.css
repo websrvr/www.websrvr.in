@@ -97,8 +97,8 @@ ul.nav a:hover{
 }
 
 .solid-bg{
- background-color: rgba(0, 0, 0, 0.5);
- color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .footer{
@@ -122,11 +122,11 @@ ul.nav a:hover{
   text-decoration: underline;
 }
 .page-container{
- background-color: rgba(255, 255, 255, 0.4);
- min-height: 500px;
- color: #222;
- padding: 10px;
-margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  min-height: 500px;
+  color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .page-container.lead{
@@ -139,4 +139,21 @@ margin-bottom: 10px;
 }
 .container-wrapper .page-header{
   margin-bottom: 0;
+}
+
+
+#pricing tbody td, #pricing thead th{
+  text-align: center;
+}
+
+#pricing tbody h3{
+  font-size: 80px;
+}
+#pricing thead h3{
+  color: #6cc644;
+  font-weight: bolder;
+}
+
+.container-wrapper .page-header{
+  color: #fff;
 }

@@ -54,6 +54,8 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/wwww'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
