@@ -1,6 +1,9 @@
 body{
   opacity: 1; background-image: -webkit-linear-gradient(left, rgb(92, 37, 141), rgb(67, 137, 162)); background-color: rgb(255, 255, 255);
 }
+.main-content{
+  min-height: 500px;
+}
 .header{background-color: rgba(0, 0, 0, 0.5);}
 .header .brand {
   margin-top: 20px;
@@ -117,4 +120,23 @@ ul.nav a:hover{
 .features a {
   color: #222;
   text-decoration: underline;
+}
+.page-container{
+ background-color: rgba(255, 255, 255, 0.4);
+ min-height: 500px;
+ color: #222;
+ padding: 10px;
+margin-bottom: 10px;
+}
+
+.page-container.lead{
+  color: #222;
+}
+.page-container.lead a{
+  color: #222;
+  font-style: bolder;
+  text-decoration: underline;
+}
+.container-wrapper .page-header{
+  margin-bottom: 0;
 }
