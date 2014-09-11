@@ -1,19 +1,86 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-    
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Deploy your websites to Amazon Cloudfront/S3 using dropbox." name="description"/>
+    <meta content="Khaja Minhajuddin" name="author"/>
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <title><%= current_page.data.title %> - websrvr</title>
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom styles for this template
+    -->
+    <link href="/stylesheets/custom.css" rel="stylesheet"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    -->
+    <!--[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    -->
+
+    <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+      for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+    mixpanel.init("55d8ec87bf483b84c2ea4f75f17b6051");</script><!-- end Mixpanel -->
+    <script type="text/javascript">mixpanel.track("<%=current_page.data.title%> [<%=request.path%>]");</script>
   </head>
-  
   <body class="<%= page_classes %>">
-    <%= yield %>
-  </body>
-</html>
+    <div class="header">
+      <div class="container">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="brand"><a href='/'>websrvr</a></h3>
+      </div>
+    </div>
+    <div class="container main-content">
+      <%= yield %>
+    </div>
+    <div class="container">
+    <div class="row footer">
+      <div class='col-md-8 text-left'>
+        <p>
+          Built by
+          <a href="http://twitter.com/minhajuddin">@minhajuddin</a>
+          &middot;
+          <a href="http://twitter.com/websrvr">@websrvr</a>
+          <br />
+          <a href="/about">About</a>
+          &middot;
+          <a href="/pricing">Pricing</a>
+          &middot;
+          <a href="/faq">FAQ</a>
+          &middot;
+          <a href="/tos">Terms of Service</a>
+          &middot;
+          <a href="/privacy">Privacy Policy</a>
+          <br />
+          <a href="http://blog.websrvr.in/">Blog</a>
+          &middot;
+          <a href="http://docs.websrvr.in/">Documentation</a>
+          &middot;
+          <a href="mailto:support@websrvr.zendesk.com?subject=%5Bwebsrvr%5D Feedback">Send feedback</a>
+          &middot;
+          <a href="mailto:support@websrvr.zendesk.com?subject=%5Bwebsrvr%5D Support">Support</a>
+          &middot;
+          <a href="http://twitter.com/share?text=I+am+using+websrvr&url=https%3A%2F%2Fapp.websrvr.in">Tweet</a>
+          &middot;
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Fapp.websrvr.in">Google+</a>
+          &middot;
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapp.websrvr.in">Facebook</a>
+          <br />
+          &copy; 2014 Cosmicvent Software Pvt Ltd. All rights reserved.
+        </p>
+      </div>
+      <div class='col-md-4 text-right'>
+        <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+        <a href="/"><img class='websrvr-badge' src="/images/websrvr-badge.png" alt="Powered by websrvr" title='Even this website is powered by websrvr. How cool is that?' /></a>
+      </div>
+    </div>
+    </div>
+
+</body></html>
+

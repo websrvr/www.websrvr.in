@@ -1,0 +1,120 @@
+body{
+  opacity: 1; background-image: -webkit-linear-gradient(left, rgb(92, 37, 141), rgb(67, 137, 162)); background-color: rgb(255, 255, 255);
+}
+.header{background-color: rgba(0, 0, 0, 0.5);}
+.header .brand {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header .brand a {
+  color: #fff;
+}
+.header .brand a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.tagline{
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.nav-pills>li>a,.nav-pills>li>a:hover, .nav-pills>li.active>a:hover ,.nav-pills>li.active>a {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+ul.nav{
+  margin-top: 13px;
+  margin-bottom: 14px;
+}
+ul.nav a{
+  font-size: 20px;
+}
+ul.nav a:hover{
+  text-decoration: underline;
+}
+.arrow{
+  font-size: 60px;
+  line-height: 340px;
+  color: #ddd;
+}
+.step{
+  text-align: center;
+}
+.step img {
+  padding-bottom: 10px;
+}
+.steps{
+  margin-left: 0;
+  margin-right: 0;
+}
+.steps .col-md-3{
+  width: 30%;
+}
+.steps .col-md-1{
+  width: 5%;
+}
+.step .caption{
+  font-size: 20px;
+  color: #fff;
+}
+.steps h3{
+  color: #fff;
+  text-align: center;
+}
+.steps em{
+  font-weight: bolder;
+}
+
+.call-to-action{
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.call-to-action em{
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.call-to-action p{
+  padding: 16px 32px;
+}
+
+.call-to-action a{
+  padding: 16px 24px;
+  font-size: 28px;
+}
+
+.call-to-action .button{
+  margin-top: 10px;
+}
+
+.call-to-action{
+  margin-bottom: 20px;
+}
+
+.solid-bg{
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #fff;
+}
+
+.footer{
+  color: #ddd;
+}
+
+.footer a{
+  color: #fff;
+}
+.websrvr-badge{
+  height: 36px;
+  border-radius: 3px;
+}
+
+.features .lead,
+.features h2 {
+  color: #fff;
+}
+.features a {
+  color: #222;
+  text-decoration: underline;
+}
