@@ -1,22 +1,22 @@
-body{
-  /*opacity: 1; background-image: -webkit-linear-gradient(left, #AA076B, #61045F); background-color: rgb(255, 255, 255);*/
-  opacity: 1; background-image: url(https://getsimplepage.s3.amazonaws.com/images/cover/187.jpg); background-color: rgb(255, 255, 255);
-  background-size: cover;
-}
-
+/* START LAYOUT */
 /*
  * Backgrounds
  * LIKES: [33, 58, 76, 79, 105, 109, 111, 115, 122, 132, 140, 141, 145, 160, 175, 187, 187, 216, 225, 256, 265, 270, 281, 283, 311, 314, 326, 347, 353, 360]
  * FILTERED LIKES: [122, 132, 160, 187, 187, 187, 216, 256, 256, 314, 360]
  */
+body{
+  background-image: url(/images/background.jpg);
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+}
 
 .wrapper{
   background-color: rgba(0, 0, 0, 0.4);
 }
-.main-content{
-  min-height: 500px;
-}
-.header{background-color: rgba(0, 0, 0, 0.5);}
+
+
+/*header*/
+.header{background-color: rgba(0, 0, 0, 0.8);}
 .header .brand {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -24,14 +24,13 @@ body{
 .header .brand a {
   color: #fff;
 }
+
 .header .brand a:hover {
   text-decoration: none;
   font-weight: bolder;
 }
-.tagline{
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-}
+/* end of header */
+/*nav*/
 .nav-pills>li>a,.nav-pills>li>a:hover, .nav-pills>li.active>a:hover ,.nav-pills>li.active>a {
   background-color: transparent;
   color: white;
@@ -47,6 +46,32 @@ ul.nav a{
 ul.nav a:hover{
   text-decoration: underline;
 }
+
+.main-content{
+  min-height: 500px;
+}
+
+.footer{
+  padding-top: 10px;
+}
+
+.footer a{
+  color: #ddd;
+}
+.websrvr-badge{
+  height: 36px;
+  border-radius: 3px;
+}
+
+
+/*end of layout*/
+
+/*index styles*/
+.tagline{
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
 .arrow{
   font-size: 60px;
   line-height: 340px;
@@ -82,8 +107,9 @@ ul.nav a:hover{
 
 .call-to-action{
   font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .call-to-action em{
@@ -104,25 +130,16 @@ ul.nav a:hover{
   margin-top: 10px;
 }
 
-.call-to-action{
-  margin-bottom: 20px;
-}
-
 .solid-bg{
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
-
-.footer{
+.solid-bg .lead{
   color: #ddd;
 }
-
-.footer a{
+.solid-bg .lead a{
   color: #fff;
-}
-.websrvr-badge{
-  height: 36px;
-  border-radius: 3px;
+  text-decoration: underline;
 }
 
 .features .lead,
@@ -133,14 +150,13 @@ ul.nav a:hover{
   color: #222;
   text-decoration: underline;
 }
+
 .page-container{
-  background-color: rgba(255, 255, 255, 0.4);
   min-height: 500px;
   color: #222;
   padding: 10px;
   margin-bottom: 10px;
 }
-
 .page-container.lead{
   color: #222;
 }
@@ -149,11 +165,20 @@ ul.nav a:hover{
   font-style: bolder;
   text-decoration: underline;
 }
+.container-wrapper{
+  background-color: #fff;
+}
 .container-wrapper .page-header{
   margin-bottom: 0;
 }
 
+/* START OF SUB PAGE STYLES */
+.container-wrapper .page-header{
+  color: #222;
+}
+/* END OF SUB PAGE STYLES */
 
+/* page specific styles */
 #pricing tbody td, #pricing thead th{
   text-align: center;
 }
@@ -161,15 +186,8 @@ ul.nav a:hover{
 #pricing tbody h3{
   font-size: 80px;
 }
+
 #pricing thead h3{
   color: #6cc644;
   font-weight: bolder;
-}
-
-.container-wrapper .page-header{
-  color: #fff;
-}
-
-.footer{
-  padding-top: 10px;
 }
