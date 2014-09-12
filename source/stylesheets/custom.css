@@ -1,6 +1,6 @@
 body{
   /*opacity: 1; background-image: -webkit-linear-gradient(left, #AA076B, #61045F); background-color: rgb(255, 255, 255);*/
-  opacity: 1; background-image: url(http://localhost:8080/58.jpg); background-color: rgb(255, 255, 255);
+  opacity: 1; background-image: url(https://getsimplepage.s3.amazonaws.com/images/cover/187.jpg); background-color: rgb(255, 255, 255);
   background-size: cover;
 }
 
@@ -171,6 +171,5 @@ ul.nav a:hover{
 }
 
 .footer{
-  /*background-color: rgba(0, 0, 0, 0.5);*/
   padding-top: 10px;
 }
