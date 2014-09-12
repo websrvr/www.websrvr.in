@@ -1,0 +1,62 @@
+---
+title: FAQ
+---
+
+<div class="container-wrapper">
+  <div class="container main-content">
+    <h2 class="page-header">
+      <%= current_page.data.title %>
+    </h2>
+
+    <div class='page-container lead'>
+      <h2>Where is my website served from?</h2>
+      <p class="lead">
+        websrvr does most of the work behind the scenes, in fact, you never have to log in to websrvr after the first sign up.
+      </p>
+
+      <h3>How to create a site?</h3>
+      <ol>
+        <li>When you successfully finish the signup a folder called <code>apps/websrvr</code> will be created in your Dropbox folder.</li>
+        <li>For every folder you create in this <code>websrvr</code> folder a new site will be created and published.</li>
+      </ol>
+
+      <h3 id='pricing'>How much does it cost?</h3>
+      <p>Checkout our <a href='/pricing'>Pricing</a> page.</p>
+
+
+      <h3>How to delete a site?</h3>
+      <p>You can delete a site just by deleting the site folder from your <code>websrvr</code> folder or by logging in to websrvr and clicking on the delte button.</p>
+
+      <h3>How to wire up my domain?</h3>
+      <p>If you want to host a website called <em>www.example.com</em></p>
+      <ol>
+        <li>Create a folder called <em>foobar</em> in your <code>websrvr</code> folder and copy your site's html and resources to this folder</li>
+        <li>Make the <em>www</em> CNAME record in your DNS server point to <em>foobar.websrvr.in</em>. That's it, now when you browse to <em>www.example.com</em> the resources from the <em>foobar</em> folder will be served.</li>
+      </ol>
+
+      <h3>Where is my website served from?</h3>
+      <p>During our beta testing period your website will be served from our online servers(which are very fast :) ). However, once we are out of private beta, you will have the option of hosting it on cloudfront.</p>
+
+      <h3>Come on, How does it really work?</h3>
+      <ol>
+        <li>Once you signup on websrvr, a folder called <code>apps/websrvr</code> will be created inside your dropbox folder.</li>
+        <li>Now, whenever you create/edit/delete a file/folder (inside the <code>apps/websrvr</code> folder) we get notified by dropbox.</li>
+        <li>As soon as we know something has changed, we get the latest files (only the changed files) and push them to our servers.</li>
+      </ol>
+
+      <h3>What kind of sites is websrvr suitable for?</h3>
+      <p>websrvr builds static sites, so it is not suitable for any site which has a lot of dynamic content. The following are a few good use cases:</p>
+      <ol>
+        <li>A blog powered by <a href='http://jekyllrb.com/'>http://jekyllrb.com/</a> and <a href='http://disqus.com'>http://disqus.com</li></a>
+        <li>A simple marketing site.</li>
+        <li>A simple documentation site.</li>
+        <li>To host your js/css/image files.</li>
+        <li>To showcase your designs.</li>
+        <li>For designers to show their ongoing work to customers.</li>
+        <li>Any kind of static site really.</li>
+      </ol>
+
+
+    </div>
+  </div>
+</div>
