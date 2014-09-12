@@ -26,6 +26,8 @@
     <script type="text/javascript">mixpanel.track("<%=current_page.data.title%> [<%=current_page.url%>]");</script>
   </head>
   <body class="<%= page_classes %>">
+    <div class="wrapper">
+    <div class="header-wrapper">
     <div class="header">
       <div class="container">
         <ul class="nav nav-pills pull-right">
@@ -35,11 +37,11 @@
         <h3 class="brand"><a href='/'>websrvr</a></h3>
       </div>
     </div>
-    <div class="container main-content">
-      <%= yield %>
     </div>
+    <%= yield %>
+    <div class="footer solid-bg">
     <div class="container">
-    <div class="row footer">
+    <div class="row">
       <div class='col-md-8 text-left'>
         <p>
           Built by
@@ -80,6 +82,24 @@
       </div>
     </div>
     </div>
-
+    </div>
+  </div>
+  <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+  <script type="text/javascript">
+    var idx = 0;
+    var existingLikes =  [122, 132, 160, 187, 187, 187, 216, 256, 256, 314, 360];
+    var likes = [];
+    var changeBg = (function(idx){ $('body').css('background-image', 'url(http://localhost:8080/' + existingLikes[idx] + '.jpg)'); })
+    $(document).on('keyup', function(e){
+        var inc = e.keyCode == 37 ? -1 : (e.keyCode == 39 ? 1 : 0)
+        idx += inc;
+        changeBg(idx);
+        if(e.keyCode == 13){
+          likes.push(existingLikes[idx]);
+          //likes.push(idx);
+          console.log("LIKES", likes.join(","))
+        }
+    });
+  </script>
 </body></html>
 

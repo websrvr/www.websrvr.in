@@ -1,5 +1,17 @@
 body{
-  opacity: 1; background-image: -webkit-linear-gradient(left, rgb(92, 37, 141), rgb(67, 137, 162)); background-color: rgb(255, 255, 255);
+  /*opacity: 1; background-image: -webkit-linear-gradient(left, #AA076B, #61045F); background-color: rgb(255, 255, 255);*/
+  opacity: 1; background-image: url(http://localhost:8080/58.jpg); background-color: rgb(255, 255, 255);
+  background-size: cover;
+}
+
+/*
+ * Backgrounds
+ * LIKES: [33, 58, 76, 79, 105, 109, 111, 115, 122, 132, 140, 141, 145, 160, 175, 187, 187, 216, 225, 256, 265, 270, 281, 283, 311, 314, 326, 347, 353, 360]
+ * FILTERED LIKES: [122, 132, 160, 187, 187, 187, 216, 256, 256, 314, 360]
+ */
+
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .main-content{
   min-height: 500px;
@@ -97,7 +109,7 @@ ul.nav a:hover{
 }
 
 .solid-bg{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
 
@@ -156,4 +168,9 @@ ul.nav a:hover{
 
 .container-wrapper .page-header{
   color: #fff;
+}
+
+.footer{
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  padding-top: 10px;
 }
