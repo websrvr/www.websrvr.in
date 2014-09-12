@@ -175,6 +175,7 @@ ul.nav a:hover{
 /* START OF SUB PAGE STYLES */
 .container-wrapper .page-header{
   color: #222;
+  margin-top: 20px;
 }
 /* END OF SUB PAGE STYLES */
 
@@ -190,4 +191,13 @@ ul.nav a:hover{
 #pricing thead h3{
   color: #6cc644;
   font-weight: bolder;
+}
+
+/* privacy */
+body.privacy h3, body.terms h3{
+  font-weight: bolder;
+}
+body.privacy .page-container p, body.privacy .page-container ul,
+body.terms .page-container p, body.terms .page-container ol{
+  font-size: 18px;
 }
