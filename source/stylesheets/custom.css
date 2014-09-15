@@ -5,18 +5,18 @@
  * FILTERED LIKES: [122, 132, 160, 187, 187, 187, 216, 256, 256, 314, 360]
  */
 body{
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/rounded.svg);
   background-color: rgb(255, 255, 255);
   background-size: cover;
 }
 
 .wrapper{
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
 
 /*header*/
-.header{background-color: rgba(0, 0, 0, 0.8);}
+.header{background-color: rgba(0, 0, 0, 0.2);}
 .header .brand {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -131,7 +131,7 @@ ul.nav a:hover{
 }
 
 .solid-bg{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 .solid-bg .lead{
