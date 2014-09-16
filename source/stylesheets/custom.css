@@ -110,24 +110,21 @@ ul.nav a:hover{
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   margin-bottom: 20px;
+  padding: 10px 5px;
 }
 
 .call-to-action em{
   font-style: normal;
-  font-size: 1.5em;
+  color: #fff;;
 }
 
-.call-to-action p{
-  padding: 16px 32px;
+.call-to-action .text{
+  line-height: 70px;
+  color: #ccc;
 }
 
 .call-to-action a{
-  padding: 16px 24px;
   font-size: 28px;
-}
-
-.call-to-action .button{
-  margin-top: 10px;
 }
 
 .solid-bg{
