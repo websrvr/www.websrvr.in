@@ -15,7 +15,8 @@
 #
 # With no layout
 # page "/path/to/file.html", :layout => false
-page "/sitemap.xml", :layout => false
+page "/sitemap.xml", :layout => false, :directory_index => false
+#page "/google759dfb9c4ea0afd9.html", :layout => false, :directory_index => false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
