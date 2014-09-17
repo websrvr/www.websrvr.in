@@ -4,6 +4,7 @@
  * LIKES: [33, 58, 76, 79, 105, 109, 111, 115, 122, 132, 140, 141, 145, 160, 175, 187, 187, 216, 225, 256, 265, 270, 281, 283, 311, 314, 326, 347, 353, 360]
  * FILTERED LIKES: [122, 132, 160, 187, 187, 187, 216, 256, 256, 314, 360]
  */
+
 body{
   background-image: url(/images/rounded.svg);
   background-color: rgb(255, 255, 255);
@@ -106,11 +107,17 @@ ul.nav a:hover{
 }
 
 .call-to-action{
-  font-size: 24px;
+  font-size: 1.9em;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   margin-bottom: 20px;
   padding: 10px 5px;
+}
+
+@media (max-width: 1024px) {
+.call-to-action{
+  font-size: 1.6em;
+}
 }
 
 .call-to-action em{
@@ -119,12 +126,12 @@ ul.nav a:hover{
 }
 
 .call-to-action .text{
-  line-height: 70px;
+  line-height: 71px;
   color: #ccc;
 }
 
 .call-to-action a{
-  font-size: 28px;
+  font-size: 1em;
 }
 
 .solid-bg{
