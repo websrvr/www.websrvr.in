@@ -1,0 +1,21 @@
+---
+host: http://www.websrvr.in #don't append / at the end
+pages:
+  - path: /
+    priority: 1
+    changefreq: daily
+  - path: /about/
+    priority: 0.8
+    changefreq: weekly
+  - path: /faq/
+    priority: 0.8
+    changefreq: weekly
+  - path: /pricing/
+    priority: 0.8
+    changefreq: weekly
+  - path: /privacy/
+    priority: 0.8
+    changefreq: weekly
+  - path: /terms/
+    priority: 0.8
+    changefreq: weekly

@@ -4,10 +4,12 @@
     <meta charset="utf-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title><%= current_page.data.title %> - websrvr</title>
     <meta content="Deploy your websites to Amazon Cloudfront/S3 using dropbox." name="description"/>
     <meta content="Khaja Minhajuddin" name="author"/>
     <link href="/favicon.ico" rel="shortcut icon" />
-    <title><%= current_page.data.title %> - websrvr</title>
+    <link rel="canonical" href="<%= data.sitemap.host %><%= current_page.url %>"/>
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"/>
     <!-- Bootstrap core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom styles for this template
