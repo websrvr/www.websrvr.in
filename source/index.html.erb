@@ -1,105 +1,107 @@
 ---
-title: Deploy your websites to a CDN using dropbox in a jiffy.
+title: Deploy your websites from dropbox.
 ---
 
 <div class="container main-content">
-<h1 class='tagline'>Deploy your websites to Cloudfront/Amazon S3 using dropbox.</h1>
-<div class="row steps">
-  <div class="col-md-3 step">
-    <h3>1. Authorize websrvr</h3>
-    <img src="/images/websrvr-authorization.png" alt=""  />
-    <p class='caption'>
-      This creates an app folder in your dropbox to which we have access. <em>It doesn't give us access to your full dropbox.</em>
-    </p>
+  <h1 class='tagline text-center'><%= data.config.tagline %></h1>
+  <div class="row steps">
+    <div class="col-md-3 step">
+      <h3>1. Authorize websrvr</h3>
+      <img src="/images/websrvr-authorization.png" alt=""  />
+      <p class='caption'>
+        This creates an app folder in your dropbox to which we have access. <em>It doesn't give us access to your full dropbox.</em>
+      </p>
+    </div>
+    <div class="col-md-1 arrow">
+      &raquo;
+    </div>
+    <div class="col-md-3 step">
+      <h3>2. Create a folder</h3>
+      <img src="/images/websrvr-folders.png" alt="" class='img-rounded' />
+      <p class='caption'>
+        Now, create a folder in your Home &raquo; Dropbox &raquo; Apps &raquo; websrvr, and put your html / css / js / images in it to publish the site.
+      </p>
+    </div>
+    <div class="col-md-1 arrow">
+      &raquo;
+    </div>
+    <div class="col-md-3 step">
+      <h3>3. Go online</h3>
+      <img src="/images/websrvr-chrome.png" alt="" class='img-rounded' />
+      <p class='caption'>
+        You can now go online to the <em>folder-name.websrvr.in</em> to view
+        your website online. Edit your files locally to updated the site.
+      </p>
+    </div>
   </div>
-  <div class="col-md-1 arrow">
-    &raquo;
-  </div>
-  <div class="col-md-3 step">
-    <h3>2. Create a folder</h3>
-    <img src="/images/websrvr-folders.png" alt="" class='img-rounded' />
-    <p class='caption'>
-      Now, create a folder in your Home &raquo; Dropbox &raquo; Apps &raquo; websrvr, and put your html / css / js / images in it to publish the site.
-    </p>
-  </div>
-  <div class="col-md-1 arrow">
-    &raquo;
-  </div>
-  <div class="col-md-3 step">
-    <h3>3. Go online</h3>
-    <img src="/images/websrvr-chrome.png" alt="" class='img-rounded' />
-    <p class='caption'>
-      You can now go online to the <em>folder-name.websrvr.in</em> to view
-      your website online. Edit your files locally to updated the site.
-    </p>
-  </div>
-</div>
 
-<div class="call-to-action row">
-  <div class="col-md-8">
-    <div class='text'>Sign up for websrvr hosted websites for <em>$1 per month</em></div>
+  <div class="call-to-action row">
+    <div class="col-md-8">
+      <div class='text'>Sign up for websrvr hosted websites for <em>$1 per month</em></div>
+    </div>
+    <div class="col-md-4 text-right">
+      <a href="https://app.websrvr.in/dropbox/authorize" class='btn btn-warning'>One click setup &raquo;</a>
+    </div>
   </div>
-  <div class="col-md-4 text-right">
-    <a href="https://app.websrvr.in/dropbox/authorize" class='btn btn-warning'>One click setup &raquo;</a>
-  </div>
-</div>
 </div>
 <div class="features-wrapper solid-bg">
-<div class='container'>
-  <div class="row">
-    <div class="col-md-6">
-      <h2>Use the tools you love</h2>
-      <p class="lead">
-        With websrvr you can edit the files locally using your favorite tools like vim/emacs/photoshop.
-        And as soon as you change a file we update your website.
-      </p>
+  <div class='container'>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Use the tools you love</h2>
+        <p class="lead">
+          With websrvr you can edit the files locally using your favorite tools like vim/emacs/photoshop.
+          And as soon as you change a file we update your website.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h2>Use static site generators</h2>
+        <p class="lead">
+          You can use tools like <a href='http://blog.websrvr.in/hello-world/'>jekyll</a> and <a href='http://blog.websrvr.in/hello-world/'>middleman</a> to build your websites.
+        </p>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h2>Use static site generators</h2>
-      <p class="lead">
-        You can use tools like <a href='http://blog.websrvr.in/hello-world/'>jekyll</a> and <a href='http://blog.websrvr.in/hello-world/'>middleman</a> to build your websites.
-      </p>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Custom domains</h2>
+        <p class="lead">
+          You can use a custom domain with websrvr.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h2>Fast basic plan</h2>
+        <p class="lead">
+          websrvr hosted sites are very fast, so if you don't want to host your sites on Cloudfront, your sites will still be fast.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <h2>Custom domains</h2>
-      <p class="lead">
-        You can use a custom domain with websrvr.
-      </p>
+    <h2>Features to come</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Deploy to Amazon S3/Cloudfront</h2>
+        <p class="lead">
+          You will be able to deploy websites to Amazon S3/Cloudfront.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h2>CSS/JS/HTML minification and compression</h2>
+        <p class="lead">
+          websrvr will minify and compress your stylesheets, javascript files and even your html so that you get a fast website.
+        </p>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h2>Fast basic plan</h2>
-      <p class="lead">
-        websrvr hosted sites are very fast, so if you don't want to host your sites on Cloudfront, your sites will still be fast.
-      </p>
+
+    <div class='row'>
+      <div class="col-md-6">
+        <h2>Simple contact forms</h2>
+        <p class="lead">
+          Simple contact forms with spam prevention
+        </p>
+      </div>
     </div>
-  </div>
-  <!--
+    <!--
           FEATURES TO COME :)
           <div class='row'>
-          <div class="col-md-6">
-            <h2>CSS/JS/HTML minification and compression</h2>
-            <p class="lead">
-              websrvr minifies and compresses your stylesheets, javascript files and even your html so that you get a blazing website.
-            </p>
-          </div>
-
-          <div class="col-md-6">
-            <h2>Fast syncs</h2>
-            <p class="lead">
-              websrvr syncs your files very fast
-            </p>
-          </div>
-
-        </div>
-          <div class='row'>
-          <div class="col-md-6">
-            <h2>Simple contact forms</h2>
-            <p class="lead">
-              Simple contact forms with spam prevention
-            </p>
-          </div>
 
           <div class="col-md-6">
             <h2>Fast syncs</h2>
@@ -110,5 +112,5 @@ title: Deploy your websites to a CDN using dropbox in a jiffy.
 
         </div>
         -->
-</div>
+  </div>
 </div>
