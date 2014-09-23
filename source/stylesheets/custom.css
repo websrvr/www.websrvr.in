@@ -107,17 +107,23 @@ ul.nav a:hover{
 }
 
 .call-to-action{
-  font-size: 1.9em;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   margin-bottom: 20px;
   padding: 10px 5px;
 }
 
-@media (max-width: 1024px) {
-.call-to-action{
-  font-size: 1.6em;
+@media (min-width:  1200px) {
+  .call-to-action{
+    font-size: 1.7em;
+    line-height: 67px;
+  }
 }
+@media (min-width: 900px) and (max-width:  1200px) {
+  .call-to-action{
+    line-height: 58px;
+    font-size: 1.4em;
+  }
 }
 
 .call-to-action em{
@@ -126,7 +132,6 @@ ul.nav a:hover{
 }
 
 .call-to-action .text{
-  line-height: 71px;
   color: #ccc;
 }
 
