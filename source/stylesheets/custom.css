@@ -6,9 +6,9 @@
  */
 
 body{
-  background-image: url(/images/rounded.svg);
   background-color: rgb(255, 255, 255);
   background-size: cover;
+  background: url('/images/rounded.svg') no-repeat center center fixed;
 }
 
 .wrapper{
