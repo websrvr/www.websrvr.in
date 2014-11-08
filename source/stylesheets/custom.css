@@ -210,3 +210,6 @@ body.privacy .page-container p, body.privacy .page-container ul,
 body.terms .page-container p, body.terms .page-container ol{
   font-size: 18px;
 }
+body.privacy h3.brand {
+  font-weight: normal;
+}
