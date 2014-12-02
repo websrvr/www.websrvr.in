@@ -56,8 +56,8 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :build_dir, '/home/minhajuddin/Dropbox/Apps/labswebsrvr/wwww'
-#set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/wwww'
+#set :build_dir, '/home/minhajuddin/Dropbox/Apps/labswebsrvr/wwww'
+set :build_dir, '/home/minhajuddin/Dropbox/Apps/websrvr/wwww'
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
