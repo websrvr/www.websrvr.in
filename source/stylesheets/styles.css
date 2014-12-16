@@ -74,3 +74,25 @@ a.brand{
 .footer a:active,
 .footer a:focus { border-bottom: 2px solid white; outline: 0;}
 
+
+.websrvr-badge{
+  height: 36px;
+  border-radius: 3px;
+}
+
+
+.lead{font-size: 1.5em;}
+
+table#pricing{ width: 100%; }
+#pricing tbody td, #pricing thead th{
+  text-align: center;
+}
+
+#pricing tbody h3{
+  font-size: 80px;
+}
+
+#pricing thead h3{
+  color: #6cc644;
+  font-weight: bolder;
+}
