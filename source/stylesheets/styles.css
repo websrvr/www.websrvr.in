@@ -109,3 +109,7 @@ table#pricing{ width: 100%; }
   margin-bottom: 40px;
 }
 .page-header h2 {margin-bottom: 0; }
+
+@media (max-width: 1150px) {
+  .medium-screen{display: none !important;}
+}
