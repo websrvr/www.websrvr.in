@@ -115,3 +115,9 @@ table#pricing{ width: 100%; }
 }
 
 .asides p, .tweets p { font-size: 1.3em; }
+
+.hero .button {
+  font-size: 1.5em;
+  padding: 10px 50px;
+  font-weight: normal;
+}
