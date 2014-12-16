@@ -2,118 +2,93 @@
 title: Create and host websites from your dropbox.
 ---
 
-<div class="container main-content">
-  <h1 class='tagline text-center'><%= data.config.tagline %></h1>
-  <div class="row steps">
-    <div class="col-md-3 step">
-      <h3>1. Authorize websrvr</h3>
-      <img src="/images/websrvr-authorization.png" alt=""  />
-      <p class='caption'>
-        This creates an app folder in your dropbox to which we have access. <em>It doesn't give us access to your full dropbox.</em>
-      </p>
-    </div>
-    <div class="col-md-1 arrow">
-      &raquo;
-    </div>
-    <div class="col-md-3 step">
-      <h3>2. Create a folder</h3>
-      <img src="/images/websrvr-folders.png" alt="" class='img-rounded' />
-      <p class='caption'>
-        Now, create a folder in your Home &raquo; Dropbox &raquo; Apps &raquo; websrvr, and put your html / css / js / images in it to publish the site.
-      </p>
-    </div>
-    <div class="col-md-1 arrow">
-      &raquo;
-    </div>
-    <div class="col-md-3 step">
-      <h3>3. Go online</h3>
-      <img src="/images/websrvr-chrome.png" alt="" class='img-rounded' />
-      <p class='caption'>
-        You can now go online to the <em>folder-name.websrvr.in</em> to view
-        your website online. Edit your files locally to update the site.
-      </p>
-    </div>
-  </div>
 
-  <div class="call-to-action row">
-    <div class="col-md-7">
-      <div class='text'>Sign up for websrvr hosted websites for <em>$1 per month</em></div>
-    </div>
-    <div class="col-md-5 text-right">
-      <a href="https://app.websrvr.in/dropbox/authorize" class='btn btn-warning'>Start your 14 day free trial!</a>
+<div class="hero">
+  <div class="container">
+    <div class="row">
+      <div>
+        <h1>
+          The web host for designers and developers
+        </h1>
+        <div class="call-to-action">
+          <p>
+            Manage your websites from your Desktop/Tablet/Mobile using Dropbox
+          </p>
+          <a href="https://app.websrvr.in/dropbox/authorize" class="button">Try Websrvr Now</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class="features-wrapper solid-bg">
-  <div class='container'>
+
+<div class="container asides">
+  <div class="row">
+    <div class="four columns">
+      <h3>
+        <i class="fa fa-fighter-jet"></i>
+        80% faster
+      </h3>
+      <p>
+        All your <a href='http://blog.websrvr.in/2014/09/23/websrvr-now-minifies-and-gzips-your-css-javascript-and-html/'>
+          html/javascript and stylesheet resources
+          are minified and compressed</a> to the highest levels, decreasing
+        the page size by upto 80%.
+      </p>
+    </div>
+    <div class="four columns">
+      <h3>
+        <i class="fa fa-code"></i>
+        Total control
+      </h3>
+      <p>
+        Websrvr gives you total control over your website. You don't need
+        any fancy web editors to manage your website. Just edit it locally and bam it's online.
+      </p>
+    </div>
+    <div class="four columns">
+      <h3>
+        <i class="fa fa-magic"></i>
+        Easy
+      </h3>
+      <p>
+        You can create websites just by copying them to a new
+        dropbox folder. Edit your HTML locally and your <a href='http://blog.websrvr.in/2014/12/06/revving-up-our-website-build-system/'>
+          website will be updated instantly.</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="tweets">
+  <div class="container">
+
     <div class="row">
-      <div class="col-md-6">
-        <h2>Use the tools you love</h2>
-        <p class="lead">
-          With websrvr you can edit the files locally using your favorite tools like vim/emacs/photoshop.
-          And as soon as you change a file we update your website.
-        </p>
+      <div class="two columns">
+        <img src='/images/pandu.jpeg'>
       </div>
-      <div class="col-md-6">
-        <h2>Use static site generators</h2>
-        <p class="lead">
-          You can use tools like <a href='http://blog.websrvr.in/2014/09/11/hello-world/'>jekyll</a> and <a href='http://blog.websrvr.in/2014/09/11/hello-world/'>middleman</a> to build your websites.
-        </p>
+      <div class="ten columns nopad">
+        <blockquote><p>This new product <a href="https://twitter.com/websrvr">@websrvr</a> rocks! Love the simplicity!</p>&mdash; pandurang (@pandurang) <a href="https://twitter.com/pandurang/status/514669192046313473">September 24, 2014</a></blockquote>
       </div>
     </div>
+
+
     <div class="row">
-      <div class="col-md-6">
-        <h2>Custom domains</h2>
-        <p class="lead">
-          You can use a custom domain with websrvr.
-        </p>
+      <div class="two columns">
+        <img src='/images/constantin.jpeg'>
       </div>
-      <div class="col-md-6">
-        <h2>Fast basic plan</h2>
-        <p class="lead">
-          websrvr hosted sites are very fast, so if you don't want to host your sites on Cloudfront, your sites will still be fast.
-        </p>
+      <div class="ten columns nopad">
+        <blockquote><p>Awesome new service by <a href="https://twitter.com/minhajuddin">@minhajuddin</a>, maker of <a href="https://getsimpleform.com">https://getsimpleform.com</a>: Create websites from Dropbox using <a href="http://www.websrvr.in/">http://www.websrvr.in/</a> <a href="https://twitter.com/hashtag/cool?src=hash">#cool</a></p>&mdash; Constantin Gonzalez (@zalez) <a href="https://twitter.com/zalez/status/522479482427682817">October 15, 2014</a></blockquote>
       </div>
     </div>
-    <div class='row'>
-      <div class="col-md-6">
-        <h2>CSS/JS/HTML minification and compression</h2>
-        <p class="lead">
-          websrvr minifies and compresses (using gzip with the highest level of compression) your stylesheets, javascript files and even your html so that you get a fast website.
-          On a typical page, you should get anywhere between 50% to 75% saving in size which should halve your page load time.
-        </p>
-      </div>
-    </div>
-    <h2>Features to come</h2>
+
     <div class="row">
-      <div class="col-md-6">
-        <h2>Deploy to Amazon S3/Cloudfront</h2>
-        <p class="lead">
-          You will be able to deploy websites to Amazon S3/Cloudfront.
-        </p>
+      <div class="two columns">
+        <img src='/images/rob.png'>
       </div>
-
-      <div class="col-md-6">
-        <h2>Simple contact forms</h2>
-        <p class="lead">
-          Simple contact forms with spam prevention
-        </p>
+      <div class="ten columns nopad">
+        <blockquote><p>Create, host and manage simple static websites easily from your own Dropbox accoun.. <a href="http://www.websrvr.in/">http://www.websrvr.in/</a> via: <a href="http://t.co/EMO84a0WHX">http://t.co/EMO84a0WHX</a></p>&mdash; Robin Good (@RobinGood) <a href="https://twitter.com/RobinGood/status/515845848274444289">September 27, 2014</a></blockquote>
       </div>
-
     </div>
 
-    <!--
-          FEATURES TO COME :)
-          <div class='row'>
-
-          <div class="col-md-6">
-            <h2>Fast syncs</h2>
-            <p class="lead">
-              websrvr syncs your files very fast
-            </p>
-          </div>
-
-        </div>
-        -->
   </div>
 </div>
