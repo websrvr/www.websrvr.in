@@ -121,3 +121,7 @@ table#pricing{ width: 100%; }
   padding: 10px 50px;
   font-weight: normal;
 }
+
+
+.tweets a { color: #222; text-decoration: none;}
+
