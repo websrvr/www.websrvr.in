@@ -125,3 +125,20 @@ table#pricing{ width: 100%; }
 
 .tweets a { color: #222; text-decoration: none;}
 
+.tweets blockquote {
+  display: inline-block;
+  padding: 16px;
+  margin: 0 0 10px 0;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  color: #000;
+  font-size: 1em;
+}
+
+.tweets blockquote p {
+  font-size: 1em;
+  margin: 0 5px 10px 0;
+}

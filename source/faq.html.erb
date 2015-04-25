@@ -60,6 +60,13 @@ title: FAQ
         <li>Any kind of static site really.</li>
       </ol>
 
+      <h3>How to wire up my domain?</h3>
+      <p>If you want to host a website called www.example.com</p>
+      <ol>
+        <li>Create a folder called <em>foobar</em> in your websrvr folder and copy your site's html and resources to this folder.</li>
+        <li>Make the <em>www</em> CNAME record in your DNS server point to <em>foobar.websrvr.in</em>.</li>
+      </ol>
+      <p>That's it, now when you browse to <em>www.example.com</em> the resources from the <em>foobar</em> folder will be served.</p>
 
     </div>
   </div>
